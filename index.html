@@ -105,6 +105,12 @@ blockquote p{font-family:var(--f-latin);font-style:italic;font-size:1.3rem;line-
 blockquote .tr{font-family:var(--f-display);font-style:normal;font-size:1rem;color:var(--ink-soft)}
 blockquote cite{font-style:normal;font-size:12px;letter-spacing:.14em;color:var(--ink-soft);text-transform:uppercase;font-family:var(--f-latin)}
 
+/* access */
+.routes{list-style:none;padding:0;margin:18px 0;border-top:1px solid var(--line)}
+.routes li{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.routes b{font-weight:500;color:var(--tide);white-space:nowrap}
+.map{margin:22px 0 8px;border-radius:6px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;background:var(--mist-deep)}
+.map iframe{display:block;width:100%;height:100%;border:0}
 figure{margin:28px 0}
 figure img{display:block;width:100%;height:auto;border-radius:4px;filter:saturate(.9)}
 figcaption{font-size:13px;color:var(--ink-soft);margin-top:8px}
@@ -159,7 +165,7 @@ footer{margin-top:80px;padding-top:20px;border-top:1px solid var(--line);font-si
       <dt><span class="ja">日時</span><span class="en">When</span></dt>
       <dd><span class="ja">2026年12月27日（日）15:00–19:00</span><span class="en">Sunday 27 December 2026, 15:00–19:00</span></dd>
       <dt><span class="ja">会場</span><span class="en">Where</span></dt>
-      <dd><span class="ja">みさきルーム348（あっこ助産所）東京都千代田区神田三崎町・JR／都営線 水道橋駅の近く（詳しい道順はお申し込み後にお知らせします）</span><span class="en">Misaki Room 348 (Akko Midwifery), Kanda-Misakicho, Chiyoda-ku, near Suidobashi Station (directions sent after you register)</span></dd>
+      <dd><span class="ja">みさきルーム348（あっこ助産所）東京都千代田区神田三崎町・水道橋駅から徒歩 2 分（下の「会場・アクセス」をご覧ください）</span><span class="en">Misaki Room 348 (Akko Midwifery), Kanda-Misakicho, Chiyoda-ku, 2 min walk from Suidobashi Station (see Venue and access below)</span></dd>
       <dt><span class="ja">定員</span><span class="en">Places</span></dt>
       <dd><span class="ja">約20名</span><span class="en">About 20</span></dd>
       <dt><span class="ja">言語</span><span class="en">Language</span></dt>
@@ -258,6 +264,24 @@ footer{margin-top:80px;padding-top:20px;border-top:1px solid var(--line);font-si
         <p class="small"><a href="https://www.instagram.com/birth.with.milliya/" target="_blank" rel="noopener">@birth.with.milliya</a> · <a href="https://www.birthwithmilliya.com/" target="_blank" rel="noopener">birthwithmilliya.com</a></p>
       </div>
     </div>
+  </section>
+
+  <section class="access">
+    <h2><span class="ja">会場・アクセス</span><span class="en">Venue and access</span></h2>
+    <p><b><span class="ja">みさきルーム348（あっこ助産所）</span><span class="en">Misaki Room 348 (Akko Midwifery)</span></b><br>
+      <span class="ja">〒101-0061 東京都千代田区神田三崎町 3-4-8 山田ビル 5 階 501 号室</span><span class="en">Yamada Bldg. 5F, Room 501, 3-4-8 Kanda-Misakicho, Chiyoda-ku, Tokyo 101-0061</span></p>
+    <ul class="routes">
+      <li><span class="ja">JR 総武線「水道橋」駅</span><span class="en">JR Sobu Line, Suidobashi Station</span><b><span class="ja">徒歩 2 分</span><span class="en">2 min walk</span></b></li>
+      <li><span class="ja">都営三田線「水道橋」駅</span><span class="en">Toei Mita Line, Suidobashi Station</span><b><span class="ja">徒歩 5 分</span><span class="en">5 min walk</span></b></li>
+      <li><span class="ja">各線「飯田橋」駅</span><span class="en">Iidabashi Station (all lines)</span><b><span class="ja">徒歩 11 分</span><span class="en">11 min walk</span></b></li>
+      <li><span class="ja">丸ノ内線「後楽園」駅</span><span class="en">Marunouchi Line, Korakuen Station</span><b><span class="ja">徒歩 11 分</span><span class="en">11 min walk</span></b></li>
+    </ul>
+    <div class="map">
+      <iframe src="https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E4%B8%89%E5%B4%8E%E7%94%BA3-4-8&amp;output=embed" title="みさきルーム348 地図" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <p class="small"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E4%B8%89%E5%B4%8E%E7%94%BA3-4-8" target="_blank" rel="noopener"><span class="ja">Google マップで開く</span><span class="en">Open in Google Maps</span></a></p>
+    <p class="small ja">専用の駐車場・駐輪場はありません。近くのコインパーキング等をご利用ください。お部屋は靴を脱いで上がる、ローテーブルとクッションの和やかな空間です。</p>
+    <p class="small en">There is no parking for cars or bicycles; please use nearby paid parking. The room is shoes-off, with low tables and floor cushions.</p>
   </section>
 
   <section>
